@@ -57,12 +57,14 @@ To implement a machine learning pipeline that clusters customers into different 
 ## 📈 Visualizations
 
 ### 🔍 Elbow Method to Select Optimal K
-![Elbow Graph](images/elbow_graph.png)
+<img width="879" height="550" alt="elbow_graph" src="https://github.com/user-attachments/assets/63a678b3-871a-4cda-9345-1830b202a0bb" />
+
 
 The Elbow Method helps to choose the number of clusters by plotting the Within-Cluster-Sum-of-Squares (WCSS) against the number of clusters. The "elbow point" is the optimal number of clusters.
 
 ### 🧭 Customer Segmentation Visualization
-![Customer Segmentation](images/customer_segments.png)
+<img width="854" height="705" alt="cust_segmt" src="https://github.com/user-attachments/assets/740360f3-7795-4bf3-8c4d-292a1d366dfb" />
+
 
 This 2D plot represents customer segments based on features like Annual Income and Spending Score.
 
@@ -72,7 +74,7 @@ This 2D plot represents customer segments based on features like Annual Income a
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/customer-segmentation-kmeans.git
+git clone https://github.com/ADITYA-CD/customer-segmentation-kmeans.git
 
 # Navigate to project directory
 cd customer-segmentation-kmeans
@@ -90,7 +92,7 @@ jupyter notebook kmeans_segmentation.ipynb
 
 ```
 ├── data/                    # Dataset files
-├── images/                  # Contains elbow_graph.png and customer_segments.png
+├── visuals/                  # Contains elbow_graph.png and customer_segments.png
 ├── kmeans_segmentation.ipynb
 ├── requirements.txt
 └── README.md
@@ -110,5 +112,3 @@ jupyter notebook kmeans_segmentation.ipynb
 
 For queries or suggestions, feel free to connect:
 
-- LinkedIn: [Aditya Gupta](https://linkedin.com/in/adityag_03)
-- Instagram: [@adityag_03](https://instagram.com/adityag_03)
